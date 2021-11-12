@@ -1,38 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family: Calibri;
+  font-size: 24px;
+}
+
+.TitleSection {
+  background-image:url(https://media2.giphy.com/media/nsi0IQvbQ9c64/giphy.webp?cid=ecf05e479n5l8vkvduw8g6qg8dlujwumul9a28yualnshh2g&rid=giphy.webp&ct=g);
+  background-size: 100%;
+  width: 100%;
+  height: 300px;
+  font-size: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.TitleSection input {
+  width: 50%;
+  text-align: center;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  font-size: 18px;
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.TitleSection button {
+  width: 50%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  border: none;
+  color: #000000;
+  background-color: yellow;
+}
+
+.TitleSection button:hover {
+  cursor: pointer;
+}
+.DisplaySection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 15px;
+}
+.Card{
+border: 1px solid black;
+background: black;
+color: white;
+background-size: 100%;
+color:white;
+font-weight: bold;
+}
+.image{
+height: 250px;
+width: 250px;
+}
+.description{
+  padding: 30px;
 }
