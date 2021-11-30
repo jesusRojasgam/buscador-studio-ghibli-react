@@ -1,0 +1,29 @@
+.register{
+    text-align: center;
+    background-color: rgb(71, 175, 240);
+  
+    
+}
+label{
+    
+    
+}
+form{
+    
+}
+button{
+    margin-top: 20px;
+}
+.buttonRegister{
+    margin: 20px;
+}
+input{
+    width: 70%;
+    
+}
+.registerForm{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

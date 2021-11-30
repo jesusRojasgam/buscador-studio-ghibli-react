@@ -1,0 +1,11 @@
+.about{
+    background-color: rgb(71, 175, 240);
+    text-align: center;
+}
+.counter{
+    align-items: center;
+   
+}
+.counter button{
+    margin: 10px;
+}

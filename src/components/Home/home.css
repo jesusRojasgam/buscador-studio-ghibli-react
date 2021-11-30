@@ -1,0 +1,21 @@
+.imageGhibli{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.button{
+     background-color:rgb(71, 175, 240) ;
+}
+.custom{
+    padding: 10px;
+    margin: 10px;
+    
+  }
+
+.form{
+    display: flex;
+   
+}
+.center{
+    text-align: center;
+}
